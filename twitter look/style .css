@@ -1,0 +1,184 @@
+**{ 
+   margin: 0;
+   padding: 0;
+   }
+   .container{
+      margin: 10;
+      padding: 10px;
+      display:grid;
+      grid-template-columns: 1fr 3fr 2fr;
+   }
+   .section{
+      font-size: 20px;
+      padding: 20px;
+      border: gray 1px solid;
+   }
+
+    
+  .center{
+       padding: 10px;
+        background: white;
+        position:relative;
+        color: black;
+        z-index:7;
+        }
+
+         #icon {
+         color:#1da1f2;
+         padding:10px ;
+         padding-left: 20px;
+         /* font-size: 5px; */
+        }   
+        #icon i{
+         color:#1da1f2;
+         padding:10px ;
+         padding-left: 20px;
+        }
+         img{
+         position: relative;
+         top: 10px;
+        }
+        
+
+       
+  /*  p{
+         font-size: 16px; 
+         line-height: -50px;
+         margin-top: -20px;
+         padding-top: -50px;
+         padding-left: 0px;
+         display: inline-flex;
+       }
+       */
+       
+       
+       
+       #name{
+        padding: 0px;
+        font-family: verdana sans-serif;
+        font-size:30px;
+         }
+         #btn{
+            height:50px ;
+            width: 100px;
+            border-radius: 15px;
+            background-color: #1da1f2;
+            color: #fff;
+            outline: auto;
+         }
+        #box{
+            height: 300px;
+            width: 400px;
+            color:black;
+            box-shadow: gray;
+            background-color:  lightgray;
+            
+         }
+         p{
+            margin:10px ;
+            padding:5px;
+            
+        }
+        #box i{
+         color:#1da1f2;
+         padding: 10px;
+         padding-left: 20px;
+        }
+        
+      .sidenav{
+            position: relative;
+            font-family:verdana;
+            color: #363030;
+            font-size:15px;
+   
+      }
+
+      #side li{
+         list-style: none;
+      }
+
+      #side a{
+         text-decoration: none;
+        }
+      
+       #btn-1{
+         height:50px ;
+         width: 150px;
+         border-radius: 15px;
+         background-color: #1da1f2;
+         color: #fff;
+         outline: auto;
+        }
+        .sidenav i{
+         color:#1da1f2;
+         padding: 10px;
+        }
+
+       .leftside{
+            width:100px;
+            height:600px;
+            position: relative;
+            font-family:verdana;
+            color: #363030;
+            font-size:15px; 
+             } 
+             
+             #box2{
+                height: 500px;
+                width: 300px;
+                color:black;
+                box-shadow: blanchedalmond;
+                background-color: rgb(247, 239, 239);
+                
+             }
+
+             
+             p2{
+                margin: 0px;
+                color: black;
+                font-family:verdana;
+                font-size:15px;
+                 }
+
+                p1{
+                        margin: 0px;
+                        color:gray;
+                        font-family:verdana;
+                        font-size:15px;
+                        font-weight: bolder;
+                 }
+
+                 h4{
+                    margin: 5px;
+                    color: black;
+                    font-family:verdana;
+                    font-size:15px;
+                    
+                    
+                     }
+                     h5{
+                        margin: 5px;
+                        color: rgb(196, 185, 185);
+                        font-family:verdana;
+                        font-size:15px;
+                        
+                         }
+                         span{
+                           padding-left: 100px;
+                           color: black;
+                           font-weight: bolder;
+                         }
+                         @media(max-width:1440px){
+                           .sidenav{
+                               width: 100%;
+                               float: none;
+                           }
+                           .center{
+                               width: 100%;
+                               float:none;
+                           }
+                           .leftside{
+                              width: 100%;
+                              float:none;
+                           }
+                        }
